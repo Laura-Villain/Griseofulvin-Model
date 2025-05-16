@@ -1,0 +1,452 @@
+{
+  "SimulationMappings": [
+    {
+      "Project": "Griseofulvin",
+      "Simulation": "Malm_500_PO",
+      "Path": "Griseofulvin/Malm_500_PO/",
+      "SimulationFile": "Malm_500_PO"
+    },
+    {
+      "Project": "Griseofulvin",
+      "Simulation": "Rowland_122_IV",
+      "Path": "Griseofulvin/Rowland_122_IV/",
+      "SimulationFile": "Rowland_122_IV"
+    },
+    {
+      "Project": "Griseofulvin",
+      "Simulation": "Rowland_142_IV",
+      "Path": "Griseofulvin/Rowland_142_IV/",
+      "SimulationFile": "Rowland_142_IV"
+    },
+    {
+      "Project": "Griseofulvin",
+      "Simulation": "Rowland_99_IV",
+      "Path": "Griseofulvin/Rowland_99_IV/",
+      "SimulationFile": "Rowland_99_IV"
+    },
+    {
+      "Project": "Griseofulvin",
+      "Simulation": "Rowland_500_PO",
+      "Path": "Griseofulvin/Rowland_500_PO/",
+      "SimulationFile": "Rowland_500_PO"
+    }
+  ],
+  "ObservedDataMappings": [
+    {
+      "Id": "IV_122mg_Sub_A_Rowland",
+      "Path": "ObservedData/IV_122mg_Sub_A_Rowland.csv"
+    },
+    {
+      "Id": "IV_142mg_Sub_C_Rowland",
+      "Path": "ObservedData/IV_142mg_Sub_C_Rowland.csv"
+    },
+    {
+      "Id": "IV_99mg_Sub_D_Rowland",
+      "Path": "ObservedData/IV_99mg_Sub_D_Rowland.csv"
+    },
+    {
+      "Id": "PO_500mg__Sub_C_Rowland",
+      "Path": "ObservedData/PO_500mg__Sub_C_Rowland.csv"
+    },
+    {
+      "Id": "PO_500mg_Sub_D_Rowland",
+      "Path": "ObservedData/PO_500mg_Sub_D_Rowland.csv"
+    },
+    {
+      "Id": "PO_500mg_Malm",
+      "Path": "ObservedData/PO_500mg_Malm.csv"
+    }
+  ],
+  "Plots": [
+    {
+      "Project": "Griseofulvin",
+      "Simulation": "Malm_500_PO",
+      "SectionReference": "ct-profiles",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.CurveChart, PKSim.Core",
+        "Axes": [
+          {
+            "Unit": "h",
+            "Dimension": "Time",
+            "Type": "X",
+            "GridLines": false,
+            "Visible": true,
+            "Min": -1.08907,
+            "Max": 50.90879,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "None",
+            "Scaling": "Linear",
+            "NumberMode": "Normal"
+          },
+          {
+            "Unit": "µmol/l",
+            "Dimension": "Concentration (molar)",
+            "Type": "Y",
+            "GridLines": false,
+            "Visible": true,
+            "Min": 0.1534115,
+            "Max": 6.0,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "Solid",
+            "Scaling": "Log",
+            "NumberMode": "Normal"
+          }
+        ],
+        "Curves": [
+          {
+            "Name": "Griseofulvin-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Malm_500_PO|Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "PO_500mg_Malm-Griseofulvin-Measurement",
+            "X": "PO_500mg_Malm|Time",
+            "Y": "PO_500mg_Malm|ObservedData|||Griseofulvin|Measurement",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 2,
+              "LineStyle": "None",
+              "Symbol": "Circle"
+            }
+          }
+        ],
+        "Name": "Time Profile Analysis",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "OriginText": "Griseofulvin-Model\nMalm_500_PO\n2025-05-16 18:11"
+      }
+    },
+    {
+      "Project": "Griseofulvin",
+      "Simulation": "Rowland_122_IV",
+      "SectionReference": "ct-profiles",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.CurveChart, PKSim.Core",
+        "Axes": [
+          {
+            "Unit": "h",
+            "Dimension": "Time",
+            "Type": "X",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "None",
+            "Scaling": "Linear",
+            "NumberMode": "Normal"
+          },
+          {
+            "Unit": "µmol/l",
+            "Dimension": "Concentration (molar)",
+            "Type": "Y",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "Solid",
+            "Scaling": "Log",
+            "NumberMode": "Normal"
+          }
+        ],
+        "Curves": [
+          {
+            "Name": "Griseofulvin-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Rowland_122_IV|Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "IV_122mg_Sub_A_Rowland-Griseofulvin-Measurement",
+            "X": "IV_122mg_Sub_A_Rowland|Time",
+            "Y": "IV_122mg_Sub_A_Rowland|ObservedData|||Griseofulvin|Measurement",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 2,
+              "LineStyle": "None",
+              "Symbol": "Circle"
+            }
+          }
+        ],
+        "Name": "Time Profile Analysis",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "OriginText": "Griseofulvin-Model\nRowland_122_IV\n2025-05-16 18:11"
+      }
+    },
+    {
+      "Project": "Griseofulvin",
+      "Simulation": "Rowland_142_IV",
+      "SectionReference": "ct-profiles",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.CurveChart, PKSim.Core",
+        "Axes": [
+          {
+            "Unit": "h",
+            "Dimension": "Time",
+            "Type": "X",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "None",
+            "Scaling": "Linear",
+            "NumberMode": "Normal"
+          },
+          {
+            "Unit": "µmol/l",
+            "Dimension": "Concentration (molar)",
+            "Type": "Y",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "Solid",
+            "Scaling": "Log",
+            "NumberMode": "Normal"
+          }
+        ],
+        "Curves": [
+          {
+            "Name": "Griseofulvin-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Rowland_142_IV|Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "IV_142mg_Sub_C_Rowland-Griseofulvin-Measurement",
+            "X": "IV_142mg_Sub_C_Rowland|Time",
+            "Y": "IV_142mg_Sub_C_Rowland|ObservedData|||Griseofulvin|Measurement",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 2,
+              "LineStyle": "None",
+              "Symbol": "Circle"
+            }
+          }
+        ],
+        "Name": "Time Profile Analysis",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "OriginText": "Griseofulvin-Model\nRowland_142_IV\n2025-05-16 18:11"
+      }
+    },
+    {
+      "Project": "Griseofulvin",
+      "Simulation": "Rowland_99_IV",
+      "SectionReference": "ct-profiles",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.CurveChart, PKSim.Core",
+        "Axes": [
+          {
+            "Unit": "h",
+            "Dimension": "Time",
+            "Type": "X",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "None",
+            "Scaling": "Linear",
+            "NumberMode": "Normal"
+          },
+          {
+            "Unit": "µmol/l",
+            "Dimension": "Concentration (molar)",
+            "Type": "Y",
+            "GridLines": false,
+            "Visible": true,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "Solid",
+            "Scaling": "Log",
+            "NumberMode": "Normal"
+          }
+        ],
+        "Curves": [
+          {
+            "Name": "Griseofulvin-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Rowland_99_IV|Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "IV_99mg_Sub_D_Rowland-Griseofulvin-Measurement",
+            "X": "IV_99mg_Sub_D_Rowland|Time",
+            "Y": "IV_99mg_Sub_D_Rowland|ObservedData|||Griseofulvin|Measurement",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 2,
+              "LineStyle": "None",
+              "Symbol": "Circle"
+            }
+          }
+        ],
+        "Name": "Time Profile Analysis",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "OriginText": "Griseofulvin-Model\nRowland_99_IV\n2025-05-16 18:11"
+      }
+    },
+    {
+      "Project": "Griseofulvin",
+      "Simulation": "Rowland_500_PO",
+      "SectionReference": "ct-profiles",
+      "Plot": {
+        "$type": "PKSim.Core.Snapshots.CurveChart, PKSim.Core",
+        "Axes": [
+          {
+            "Unit": "h",
+            "Dimension": "Time",
+            "Type": "X",
+            "GridLines": false,
+            "Visible": true,
+            "Min": -1.08907,
+            "Max": 50.90879,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "None",
+            "Scaling": "Linear",
+            "NumberMode": "Normal"
+          },
+          {
+            "Unit": "µmol/l",
+            "Dimension": "Concentration (molar)",
+            "Type": "Y",
+            "GridLines": false,
+            "Visible": true,
+            "Min": 0.1534115,
+            "Max": 6.0,
+            "DefaultColor": "#FFFFFF",
+            "DefaultLineStyle": "Solid",
+            "Scaling": "Log",
+            "NumberMode": "Normal"
+          }
+        ],
+        "Curves": [
+          {
+            "Name": "Griseofulvin-Peripheral Venous Blood-Plasma-Concentration",
+            "X": "Time",
+            "Y": "Rowland_500_PO|Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 1
+            }
+          },
+          {
+            "Name": "PO_500mg_Sub_D_Rowland-Griseofulvin-Measurement",
+            "X": "PO_500mg_Sub_D_Rowland|Time",
+            "Y": "PO_500mg_Sub_D_Rowland|ObservedData|||Griseofulvin|Measurement",
+            "CurveOptions": {
+              "Color": "#0000FF",
+              "LegendIndex": 3,
+              "LineStyle": "None",
+              "Symbol": "Circle"
+            }
+          },
+          {
+            "Name": "PO_500mg__Sub_C_Rowland-Griseofulvin-Measurement",
+            "X": "PO_500mg__Sub_C_Rowland|Time",
+            "Y": "PO_500mg__Sub_C_Rowland|ObservedData|||Griseofulvin|Measurement",
+            "CurveOptions": {
+              "Color": "#FF0000",
+              "LegendIndex": 2,
+              "LineStyle": "None",
+              "Symbol": "Circle"
+            }
+          }
+        ],
+        "Name": "Time Profile Analysis",
+        "FontAndSize": {
+          "Fonts": {
+            "AxisSize": 10,
+            "LegendSize": 8,
+            "TitleSize": 16,
+            "DescriptionSize": 12,
+            "OriginSize": 8,
+            "FontFamilyName": "Microsoft Sans Serif",
+            "WatermarkSize": 32
+          }
+        },
+        "Settings": {
+          "SideMarginsEnabled": true,
+          "LegendPosition": "RightInside",
+          "BackColor": "#FFFFFF",
+          "DiagramBackColor": "#FFFFFF"
+        },
+        "OriginText": "Griseofulvin-Model\nRowland_500_PO\n2025-05-16 18:11"
+      }
+    }
+  ],
+  "Inputs": [
+    {
+      "SectionReference": "final-input-parameters",
+      "Path": "Inputs/Griseofulvin/Compound/Griseofulvin.md"
+    }
+  ]
+}

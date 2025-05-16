@@ -1,0 +1,208 @@
+16/05/2025 - 16:08:31
+Loading Simulations onto Qualification Workflow
+16/05/2025 - 16:31:20
+Loading Simulations onto Qualification Workflow
+16/05/2025 - 16:37:29
+Loading Simulations onto Qualification Workflow
+16/05/2025 - 16:44:30
+Loading Simulations onto Qualification Workflow
+16/05/2025 - 16:46:45
+Loading Simulations onto Qualification Workflow
+16/05/2025 - 16:46:48
+Simulations loading completed in 0.1 min
+16/05/2025 - 16:46:48
+Reporting Engine Information:
+Date: 16/05/2025 - 16:46:48
+User Information:
+Computer Name: LAURA_COMPUTER
+User: LauraVillain
+Login: LauraVillain
+System is NOT validated
+System versions:
+R version: R version 4.4.1 (2024-06-14 ucrt)
+OSP Suite Package version: 12.1.0.9007
+OSP Reporting Engine version: 2.2.0
+tlf version: 1.5.0
+16/05/2025 - 16:46:50
+Starting run of Qualification Workflow
+16/05/2025 - 16:46:54
+Starting run of Simulation task
+16/05/2025 - 16:46:55
+Splitting simulations for parallel run: 5 simulations split into 1 subsets
+16/05/2025 - 16:46:55
+Starting run of subset simulations
+16/05/2025 - 16:47:03
+Simulation task completed in 0.2 min
+16/05/2025 - 16:47:03
+Starting run of Plot Merged Goodness of Fit task
+16/05/2025 - 16:47:26
+Plot Merged Goodness of Fit task completed in 0.4 min
+16/05/2025 - 16:47:26
+Starting run of Plot Time Profiles task
+16/05/2025 - 16:48:06
+Plot Time Profiles task completed in 0.7 min
+16/05/2025 - 16:48:12
+Executing: pandoc --embed-resources --standalone --wrap=none --toc --from=markdown+tex_math_dollars+superscript+subscript+raw_attribute --reference-doc="C:/Users/LauraVillain/AppData/Local/R/win-library/4.4/ospsuite.reportingengine/extdata/reference.docx" --resource-path="C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output" -t docx -o "C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report-word.docx" "C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report-word.md"
+
+16/05/2025 - 16:48:16
+Qualification Workflow completed in 1.4 min
+16/05/2025 - 17:21:09
+Loading Simulations onto Qualification Workflow
+16/05/2025 - 17:21:13
+Simulations loading completed in 0.1 min
+16/05/2025 - 17:21:13
+Reporting Engine Information:
+Date: 16/05/2025 - 17:21:13
+User Information:
+Computer Name: LAURA_COMPUTER
+User: LauraVillain
+Login: LauraVillain
+System is NOT validated
+System versions:
+R version: R version 4.4.1 (2024-06-14 ucrt)
+OSP Suite Package version: 12.1.0.9007
+OSP Reporting Engine version: 2.2.0
+tlf version: 1.5.0
+16/05/2025 - 17:21:14
+Starting run of Qualification Workflow
+16/05/2025 - 17:21:22
+Starting run of Simulation task
+16/05/2025 - 17:21:24
+Splitting simulations for parallel run: 5 simulations split into 1 subsets
+16/05/2025 - 17:21:24
+Starting run of subset simulations
+16/05/2025 - 17:21:26
+Simulation task completed in 0.1 min
+16/05/2025 - 17:21:26
+Starting run of Plot Merged Goodness of Fit task
+16/05/2025 - 17:21:38
+Plot Merged Goodness of Fit task completed in 0.2 min
+16/05/2025 - 17:21:38
+Starting run of Plot Time Profiles task
+16/05/2025 - 17:22:06
+Plot Time Profiles task completed in 0.5 min
+16/05/2025 - 17:22:07
+Executing: pandoc --embed-resources --standalone --wrap=none --toc --from=markdown+tex_math_dollars+superscript+subscript+raw_attribute --reference-doc="C:/Users/LauraVillain/AppData/Local/R/win-library/4.4/ospsuite.reportingengine/extdata/reference.docx" --resource-path="C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output" -t docx -o "C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report-word.docx" "C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report-word.md"
+
+16/05/2025 - 17:22:10
+Qualification Workflow completed in 0.9 min
+16/05/2025 - 18:13:51
+Loading Simulations onto Qualification Workflow
+16/05/2025 - 18:13:54
+Simulations loading completed in 0 min
+16/05/2025 - 18:13:54
+Reporting Engine Information:
+Date: 16/05/2025 - 18:13:54
+User Information:
+Computer Name: LAURA_COMPUTER
+User: LauraVillain
+Login: LauraVillain
+System is NOT validated
+System versions:
+R version: R version 4.4.1 (2024-06-14 ucrt)
+OSP Suite Package version: 12.1.0.9007
+OSP Reporting Engine version: 2.2.0
+tlf version: 1.5.0
+16/05/2025 - 18:13:54
+Starting run of Qualification Workflow
+16/05/2025 - 18:14:03
+Starting run of Simulation task
+16/05/2025 - 18:14:05
+Splitting simulations for parallel run: 5 simulations split into 1 subsets
+16/05/2025 - 18:14:05
+Starting run of subset simulations
+16/05/2025 - 18:14:09
+Simulation task completed in 0.1 min
+16/05/2025 - 18:14:09
+Starting run of Plot Merged Goodness of Fit task
+16/05/2025 - 18:14:37
+Plot Merged Goodness of Fit task completed in 0.5 min
+16/05/2025 - 18:14:37
+Starting run of Plot Time Profiles task
+16/05/2025 - 18:15:13
+Plot Time Profiles task completed in 0.6 min
+16/05/2025 - 18:15:14
+Executing: pandoc --embed-resources --standalone --wrap=none --toc --from=markdown+tex_math_dollars+superscript+subscript+raw_attribute --reference-doc="C:/Users/LauraVillain/AppData/Local/R/win-library/4.4/ospsuite.reportingengine/extdata/reference.docx" --resource-path="C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output" -t docx -o "C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report-word.docx" "C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report-word.md"
+
+16/05/2025 - 18:15:18
+Qualification Workflow completed in 1.4 min
+16/05/2025 - 18:23:19
+Loading Simulations onto Qualification Workflow
+16/05/2025 - 18:23:22
+Simulations loading completed in 0 min
+16/05/2025 - 18:23:22
+Reporting Engine Information:
+Date: 16/05/2025 - 18:23:22
+User Information:
+Computer Name: LAURA_COMPUTER
+User: LauraVillain
+Login: LauraVillain
+System is NOT validated
+System versions:
+R version: R version 4.4.1 (2024-06-14 ucrt)
+OSP Suite Package version: 12.1.0.9007
+OSP Reporting Engine version: 2.2.0
+tlf version: 1.5.0
+16/05/2025 - 18:23:23
+Starting run of Qualification Workflow
+16/05/2025 - 18:23:23
+Starting run of Simulation task
+16/05/2025 - 18:23:25
+Splitting simulations for parallel run: 5 simulations split into 1 subsets
+16/05/2025 - 18:23:25
+Starting run of subset simulations
+16/05/2025 - 18:23:28
+Simulation task completed in 0.1 min
+16/05/2025 - 18:23:28
+Starting run of Plot Merged Goodness of Fit task
+16/05/2025 - 18:23:45
+Plot Merged Goodness of Fit task completed in 0.3 min
+16/05/2025 - 18:23:45
+Starting run of Plot Time Profiles task
+16/05/2025 - 18:24:15
+Plot Time Profiles task completed in 0.5 min
+16/05/2025 - 18:24:16
+Executing: pandoc --embed-resources --standalone --wrap=none --toc --from=markdown+tex_math_dollars+superscript+subscript+raw_attribute --reference-doc="C:/Users/LauraVillain/AppData/Local/R/win-library/4.4/ospsuite.reportingengine/extdata/reference.docx" --resource-path="C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output" -t docx -o "C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report-word.docx" "C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report-word.md"
+
+16/05/2025 - 18:24:18
+Qualification Workflow completed in 0.9 min
+16/05/2025 - 18:26:20
+Loading Simulations onto Qualification Workflow
+16/05/2025 - 18:26:24
+Simulations loading completed in 0.1 min
+16/05/2025 - 18:26:24
+Reporting Engine Information:
+Date: 16/05/2025 - 18:26:24
+User Information:
+Computer Name: LAURA_COMPUTER
+User: LauraVillain
+Login: LauraVillain
+System is NOT validated
+System versions:
+R version: R version 4.4.1 (2024-06-14 ucrt)
+OSP Suite Package version: 12.1.0.9007
+OSP Reporting Engine version: 2.2.0
+tlf version: 1.5.0
+16/05/2025 - 18:26:24
+Starting run of Qualification Workflow
+16/05/2025 - 18:26:26
+Starting run of Simulation task
+16/05/2025 - 18:26:26
+Splitting simulations for parallel run: 5 simulations split into 1 subsets
+16/05/2025 - 18:26:26
+Starting run of subset simulations
+16/05/2025 - 18:26:32
+Simulation task completed in 0.1 min
+16/05/2025 - 18:26:32
+Starting run of Plot Merged Goodness of Fit task
+16/05/2025 - 18:26:49
+Plot Merged Goodness of Fit task completed in 0.3 min
+16/05/2025 - 18:26:49
+Starting run of Plot Time Profiles task
+16/05/2025 - 18:27:32
+Plot Time Profiles task completed in 0.7 min
+16/05/2025 - 18:27:33
+Executing: pandoc --embed-resources --standalone --wrap=none --toc --from=markdown+tex_math_dollars+superscript+subscript+raw_attribute --reference-doc="C:/Users/LauraVillain/AppData/Local/R/win-library/4.4/ospsuite.reportingengine/extdata/reference.docx" --resource-path="C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output" -t docx -o "C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report-word.docx" "C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report-word.md"
+
+16/05/2025 - 18:27:37
+Qualification Workflow completed in 1.2 min

@@ -1,9 +1,9 @@
-The PBPK model for COMPOUND was developed and verified with clinical pharmacokinetic data.
+The PBPK model for Griseofulvin was developed and verified with clinical pharmacokinetic data.
 
 The model was evaluated covering data from studies including in particular
 
-* ...
-* ...
+* Intravenous Bolus
+* Oral administration over fed and fasted states.
 
 The model quantifies ...
 

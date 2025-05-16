@@ -1,0 +1,1307 @@
+16/05/2025 - 16:46:48
+In createQualificationReport:
+Path: 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output' already exists.
+16/05/2025 - 16:46:55
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Malm_500_PO//Malm_500_PO.pkml' successfully loaded' successfully loaded
+16/05/2025 - 16:46:57
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_122_IV//Rowland_122_IV.pkml' successfully loaded' successfully loaded
+16/05/2025 - 16:46:57
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_142_IV//Rowland_142_IV.pkml' successfully loaded' successfully loaded
+16/05/2025 - 16:46:59
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_99_IV//Rowland_99_IV.pkml' successfully loaded' successfully loaded
+16/05/2025 - 16:46:59
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_500_PO//Rowland_500_PO.pkml' successfully loaded' successfully loaded
+16/05/2025 - 16:47:04
+Observed data Id 'IV_99mg_Sub_D_Rowland' included 2 columns and 11 rows
+16/05/2025 - 16:47:05
+Observed data Id 'IV_122mg_Sub_A_Rowland' included 2 columns and 11 rows
+16/05/2025 - 16:47:06
+Observed data Id 'IV_142mg_Sub_C_Rowland' included 2 columns and 10 rows
+16/05/2025 - 16:47:07
+Observed data Id 'PO_500mg__Sub_C_Rowland' included 2 columns and 15 rows
+16/05/2025 - 16:47:07
+Observed data Id 'PO_500mg_Sub_D_Rowland' included 2 columns and 12 rows
+16/05/2025 - 16:47:09
+Observed data Id 'PO_500mg_Malm' included 3 columns and 13 rows
+16/05/2025 - 16:47:11
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 16:47:12
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 16:47:12
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 16:47:12
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 16:47:13
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 16:47:13
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 16:47:13
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 16:47:15
+Table 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/008_section_diagnostics-plots/1_gof_gmfe.csv' was successfully saved.
+16/05/2025 - 16:47:17
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:17
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:18
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:18
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:18
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:19
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:20
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:21
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:21
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:21
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:22
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:22
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:23
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/008_section_diagnostics-plots/2_gof_plot_predictedVsObserved.png' was successfully saved.
+16/05/2025 - 16:47:26
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/008_section_diagnostics-plots/3_gof_plot_residualsOverTime.png' was successfully saved.
+16/05/2025 - 16:47:28
+Observed data Id 'PO_500mg_Malm' included 3 columns and 13 rows
+16/05/2025 - 16:47:32
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 16:47:32
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 16:47:32
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 16:47:32
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 16:47:33
+Observed data Id 'IV_122mg_Sub_A_Rowland' included 2 columns and 11 rows
+16/05/2025 - 16:47:37
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Rowland_122_IV
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 1 (json numbering starting at 0);  2 (actual plot index)
+
+16/05/2025 - 16:47:38
+Observed data Id 'IV_142mg_Sub_C_Rowland' included 2 columns and 10 rows
+16/05/2025 - 16:47:41
+Observed data Id 'IV_99mg_Sub_D_Rowland' included 2 columns and 11 rows
+16/05/2025 - 16:47:44
+Observed data Id 'PO_500mg_Sub_D_Rowland' included 2 columns and 12 rows
+16/05/2025 - 16:47:44
+Observed data Id 'PO_500mg__Sub_C_Rowland' included 2 columns and 15 rows
+16/05/2025 - 16:47:47
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Rowland_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 4 (json numbering starting at 0);  5 (actual plot index)
+
+16/05/2025 - 16:47:48
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:48
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:48
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:49
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:50
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:50
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:50
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:50
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:51
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/1_time_profile_plot_Griseofulvin_Malm_500_PO.png' was successfully saved.
+16/05/2025 - 16:47:53
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:54
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:47:54
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/2_time_profile_plot_Griseofulvin_Rowland_122_IV.png' was successfully saved.
+16/05/2025 - 16:47:58
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/3_time_profile_plot_Griseofulvin_Rowland_142_IV.png' was successfully saved.
+16/05/2025 - 16:48:01
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/4_time_profile_plot_Griseofulvin_Rowland_99_IV.png' was successfully saved.
+16/05/2025 - 16:48:02
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:48:03
+log-10 transformation introduced infinite values.
+16/05/2025 - 16:48:04
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/5_time_profile_plot_Griseofulvin_Rowland_500_PO.png' was successfully saved.
+16/05/2025 - 16:48:06
+Reports 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/001_Introduction.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/002_Methods.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/003_Modeling_Strategy.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/004_Data.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/005_Model_Parameters_and_Assumptions.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/006_Results_and_Discussion.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/007_Final_input_parameters.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/008_Diagnostics_Plots.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/009_Concentration_Time_Profiles.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/010_Conclusion.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/011_References.md' were successfully merged into 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md'
+16/05/2025 - 16:48:06
+In 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md', 0.666666666666667 tables and 7 figures were referenced.
+16/05/2025 - 16:48:14
+Word version of report 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md' created.
+16/05/2025 - 16:48:16
+In 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md', 5 sections were numbered
+16/05/2025 - 16:48:16
+In 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md', table of content of 19 lines was included.
+16/05/2025 - 16:48:16
+'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md' already exists. Overwriting 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md'.
+16/05/2025 - 16:48:16
+Reports 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/000_Intro.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md' were successfully merged into 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md'
+16/05/2025 - 17:21:13
+In createQualificationReport:
+Path: 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output' already exists.
+16/05/2025 - 17:21:24
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Malm_500_PO//Malm_500_PO.pkml' successfully loaded' successfully loaded
+16/05/2025 - 17:21:24
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_122_IV//Rowland_122_IV.pkml' successfully loaded' successfully loaded
+16/05/2025 - 17:21:24
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_142_IV//Rowland_142_IV.pkml' successfully loaded' successfully loaded
+16/05/2025 - 17:21:24
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_99_IV//Rowland_99_IV.pkml' successfully loaded' successfully loaded
+16/05/2025 - 17:21:24
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_500_PO//Rowland_500_PO.pkml' successfully loaded' successfully loaded
+16/05/2025 - 17:21:27
+Observed data Id 'IV_99mg_Sub_D_Rowland' included 2 columns and 11 rows
+16/05/2025 - 17:21:28
+Observed data Id 'IV_122mg_Sub_A_Rowland' included 2 columns and 11 rows
+16/05/2025 - 17:21:29
+Observed data Id 'IV_142mg_Sub_C_Rowland' included 2 columns and 10 rows
+16/05/2025 - 17:21:30
+Observed data Id 'PO_500mg__Sub_C_Rowland' included 2 columns and 15 rows
+16/05/2025 - 17:21:30
+Observed data Id 'PO_500mg_Sub_D_Rowland' included 2 columns and 12 rows
+16/05/2025 - 17:21:30
+Observed data Id 'PO_500mg_Malm' included 3 columns and 13 rows
+16/05/2025 - 17:21:31
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 17:21:32
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 17:21:32
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 17:21:33
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 17:21:33
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 17:21:33
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 17:21:33
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 17:21:34
+Table 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/008_section_diagnostics-plots/1_gof_gmfe.csv' was successfully saved.
+16/05/2025 - 17:21:35
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:35
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:35
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:35
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:35
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:35
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:36
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:36
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:36
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:36
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:36
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:36
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:37
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/008_section_diagnostics-plots/2_gof_plot_predictedVsObserved.png' was successfully saved.
+16/05/2025 - 17:21:38
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/008_section_diagnostics-plots/3_gof_plot_residualsOverTime.png' was successfully saved.
+16/05/2025 - 17:21:39
+Observed data Id 'PO_500mg_Malm' included 3 columns and 13 rows
+16/05/2025 - 17:21:41
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 17:21:41
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 17:21:41
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 17:21:41
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 17:21:42
+Observed data Id 'IV_122mg_Sub_A_Rowland' included 2 columns and 11 rows
+16/05/2025 - 17:21:44
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Rowland_122_IV
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 1 (json numbering starting at 0);  2 (actual plot index)
+
+16/05/2025 - 17:21:45
+Observed data Id 'IV_142mg_Sub_C_Rowland' included 2 columns and 10 rows
+16/05/2025 - 17:21:47
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Rowland_142_IV
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 2 (json numbering starting at 0);  3 (actual plot index)
+
+16/05/2025 - 17:21:47
+Observed data Id 'IV_99mg_Sub_D_Rowland' included 2 columns and 11 rows
+16/05/2025 - 17:21:50
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Rowland_99_IV
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 3 (json numbering starting at 0);  4 (actual plot index)
+
+16/05/2025 - 17:21:51
+Observed data Id 'PO_500mg_Sub_D_Rowland' included 2 columns and 12 rows
+16/05/2025 - 17:21:51
+Observed data Id 'PO_500mg__Sub_C_Rowland' included 2 columns and 15 rows
+16/05/2025 - 17:21:52
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Rowland_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 4 (json numbering starting at 0);  5 (actual plot index)
+
+16/05/2025 - 17:21:53
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:53
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:53
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:53
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:54
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:54
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:54
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:54
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:55
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/1_time_profile_plot_Griseofulvin_Malm_500_PO.png' was successfully saved.
+16/05/2025 - 17:21:56
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:57
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:21:57
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/2_time_profile_plot_Griseofulvin_Rowland_122_IV.png' was successfully saved.
+16/05/2025 - 17:21:59
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:22:00
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:22:00
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/3_time_profile_plot_Griseofulvin_Rowland_142_IV.png' was successfully saved.
+16/05/2025 - 17:22:02
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:22:02
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:22:03
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/4_time_profile_plot_Griseofulvin_Rowland_99_IV.png' was successfully saved.
+16/05/2025 - 17:22:04
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:22:05
+log-10 transformation introduced infinite values.
+16/05/2025 - 17:22:06
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/5_time_profile_plot_Griseofulvin_Rowland_500_PO.png' was successfully saved.
+16/05/2025 - 17:22:06
+'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md' already exists. Overwriting 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md'.
+16/05/2025 - 17:22:06
+Reports 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/001_Introduction.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/002_Methods.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/003_Modeling_Strategy.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/004_Data.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/005_Model_Parameters_and_Assumptions.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/006_Results_and_Discussion.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/007_Final_input_parameters.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/008_Diagnostics_Plots.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/009_Concentration_Time_Profiles.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/010_Conclusion.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/011_References.md' were successfully merged into 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md'
+16/05/2025 - 17:22:07
+In 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md', 0.666666666666667 tables and 7 figures were referenced.
+16/05/2025 - 17:22:09
+Word version of report 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md' created.
+16/05/2025 - 17:22:10
+In 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md', 5 sections were numbered
+16/05/2025 - 17:22:10
+In 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md', table of content of 19 lines was included.
+16/05/2025 - 17:22:10
+'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md' already exists. Overwriting 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md'.
+16/05/2025 - 17:22:10
+Reports 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/000_Intro.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md' were successfully merged into 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md'
+16/05/2025 - 18:13:54
+In createQualificationReport:
+Path: 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output' already exists.
+16/05/2025 - 18:14:05
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Malm_500_PO//Malm_500_PO.pkml' successfully loaded' successfully loaded
+16/05/2025 - 18:14:05
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_122_IV//Rowland_122_IV.pkml' successfully loaded' successfully loaded
+16/05/2025 - 18:14:05
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_142_IV//Rowland_142_IV.pkml' successfully loaded' successfully loaded
+16/05/2025 - 18:14:07
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_99_IV//Rowland_99_IV.pkml' successfully loaded' successfully loaded
+16/05/2025 - 18:14:07
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_500_PO//Rowland_500_PO.pkml' successfully loaded' successfully loaded
+16/05/2025 - 18:14:11
+Observed data Id 'IV_99mg_Sub_D_Rowland' included 2 columns and 11 rows
+16/05/2025 - 18:14:12
+Observed data Id 'IV_122mg_Sub_A_Rowland' included 2 columns and 11 rows
+16/05/2025 - 18:14:13
+Observed data Id 'IV_142mg_Sub_C_Rowland' included 2 columns and 10 rows
+16/05/2025 - 18:14:14
+Observed data Id 'PO_500mg__Sub_C_Rowland' included 2 columns and 15 rows
+16/05/2025 - 18:14:14
+Observed data Id 'PO_500mg_Sub_D_Rowland' included 2 columns and 12 rows
+16/05/2025 - 18:14:15
+Observed data Id 'PO_500mg_Malm' included 3 columns and 13 rows
+16/05/2025 - 18:14:17
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:14:17
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:14:18
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:14:18
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:14:18
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:14:19
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:14:20
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:14:21
+Table 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/008_section_diagnostics-plots/1_gof_gmfe.csv' was successfully saved.
+16/05/2025 - 18:14:23
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:23
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:23
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:24
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:24
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:25
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:26
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:26
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:27
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:28
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:29
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:29
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:31
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/008_section_diagnostics-plots/2_gof_plot_predictedVsObserved.png' was successfully saved.
+16/05/2025 - 18:14:34
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/008_section_diagnostics-plots/3_gof_plot_residualsOverTime.png' was successfully saved.
+16/05/2025 - 18:14:38
+Observed data Id 'PO_500mg_Malm' included 3 columns and 13 rows
+16/05/2025 - 18:14:40
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:14:40
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:14:41
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:14:41
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:14:42
+Observed data Id 'IV_122mg_Sub_A_Rowland' included 2 columns and 11 rows
+16/05/2025 - 18:14:44
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Rowland_122_IV
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 1 (json numbering starting at 0);  2 (actual plot index)
+
+16/05/2025 - 18:14:45
+Observed data Id 'IV_142mg_Sub_C_Rowland' included 2 columns and 10 rows
+16/05/2025 - 18:14:47
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Rowland_142_IV
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 2 (json numbering starting at 0);  3 (actual plot index)
+
+16/05/2025 - 18:14:47
+Observed data Id 'IV_99mg_Sub_D_Rowland' included 2 columns and 11 rows
+16/05/2025 - 18:14:50
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Rowland_99_IV
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 3 (json numbering starting at 0);  4 (actual plot index)
+
+16/05/2025 - 18:14:51
+Observed data Id 'PO_500mg_Sub_D_Rowland' included 2 columns and 12 rows
+16/05/2025 - 18:14:51
+Observed data Id 'PO_500mg__Sub_C_Rowland' included 2 columns and 15 rows
+16/05/2025 - 18:14:53
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Rowland_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 4 (json numbering starting at 0);  5 (actual plot index)
+
+16/05/2025 - 18:14:54
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:54
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:54
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:55
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:56
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:57
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:57
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:57
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:14:58
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/1_time_profile_plot_Griseofulvin_Malm_500_PO.png' was successfully saved.
+16/05/2025 - 18:14:59
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:15:00
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:15:01
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/2_time_profile_plot_Griseofulvin_Rowland_122_IV.png' was successfully saved.
+16/05/2025 - 18:15:04
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:15:05
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:15:06
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/3_time_profile_plot_Griseofulvin_Rowland_142_IV.png' was successfully saved.
+16/05/2025 - 18:15:09
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:15:09
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:15:10
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/4_time_profile_plot_Griseofulvin_Rowland_99_IV.png' was successfully saved.
+16/05/2025 - 18:15:11
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:15:12
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:15:13
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/5_time_profile_plot_Griseofulvin_Rowland_500_PO.png' was successfully saved.
+16/05/2025 - 18:15:13
+'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md' already exists. Overwriting 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md'.
+16/05/2025 - 18:15:13
+Reports 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/001_Introduction.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/002_Methods.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/003_Modeling_Strategy.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/004_Data.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/005_Model_Parameters_and_Assumptions.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/006_Results_and_Discussion.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/007_Final_input_parameters.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/008_Diagnostics_Plots.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/009_Concentration_Time_Profiles.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/010_Conclusion.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/011_References.md' were successfully merged into 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md'
+16/05/2025 - 18:15:14
+In 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md', 0.666666666666667 tables and 7 figures were referenced.
+16/05/2025 - 18:15:15
+Word version of report 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md' created.
+16/05/2025 - 18:15:16
+In 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md', 5 sections were numbered
+16/05/2025 - 18:15:16
+In 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md', table of content of 19 lines was included.
+16/05/2025 - 18:15:16
+'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md' already exists. Overwriting 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md'.
+16/05/2025 - 18:15:16
+Reports 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/000_Intro.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md' were successfully merged into 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md'
+16/05/2025 - 18:23:22
+In createQualificationReport:
+Path: 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output' already exists.
+16/05/2025 - 18:23:25
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Malm_500_PO//Malm_500_PO.pkml' successfully loaded' successfully loaded
+16/05/2025 - 18:23:25
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_122_IV//Rowland_122_IV.pkml' successfully loaded' successfully loaded
+16/05/2025 - 18:23:25
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_142_IV//Rowland_142_IV.pkml' successfully loaded' successfully loaded
+16/05/2025 - 18:23:25
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_99_IV//Rowland_99_IV.pkml' successfully loaded' successfully loaded
+16/05/2025 - 18:23:25
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_500_PO//Rowland_500_PO.pkml' successfully loaded' successfully loaded
+16/05/2025 - 18:23:30
+Observed data Id 'IV_99mg_Sub_D_Rowland' included 2 columns and 11 rows
+16/05/2025 - 18:23:31
+Observed data Id 'IV_122mg_Sub_A_Rowland' included 2 columns and 11 rows
+16/05/2025 - 18:23:32
+Observed data Id 'IV_142mg_Sub_C_Rowland' included 2 columns and 10 rows
+16/05/2025 - 18:23:33
+Observed data Id 'PO_500mg__Sub_C_Rowland' included 2 columns and 15 rows
+16/05/2025 - 18:23:33
+Observed data Id 'PO_500mg_Sub_D_Rowland' included 2 columns and 12 rows
+16/05/2025 - 18:23:34
+Observed data Id 'PO_500mg_Malm' included 3 columns and 13 rows
+16/05/2025 - 18:23:35
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:23:36
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:23:36
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:23:36
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:23:37
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:23:38
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:23:38
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:23:39
+Table 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/008_section_diagnostics-plots/1_gof_gmfe.csv' was successfully saved.
+16/05/2025 - 18:23:40
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:23:40
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:23:40
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:23:41
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:23:41
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:23:41
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:23:42
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:23:42
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:23:42
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:23:42
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:23:42
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:23:42
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:23:44
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/008_section_diagnostics-plots/2_gof_plot_predictedVsObserved.png' was successfully saved.
+16/05/2025 - 18:23:45
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/008_section_diagnostics-plots/3_gof_plot_residualsOverTime.png' was successfully saved.
+16/05/2025 - 18:23:46
+Observed data Id 'PO_500mg_Malm' included 3 columns and 13 rows
+16/05/2025 - 18:23:48
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:23:48
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:23:48
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:23:49
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:23:50
+Observed data Id 'IV_122mg_Sub_A_Rowland' included 2 columns and 11 rows
+16/05/2025 - 18:23:52
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Rowland_122_IV
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 1 (json numbering starting at 0);  2 (actual plot index)
+
+16/05/2025 - 18:23:52
+Observed data Id 'IV_142mg_Sub_C_Rowland' included 2 columns and 10 rows
+16/05/2025 - 18:23:55
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Rowland_142_IV
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 2 (json numbering starting at 0);  3 (actual plot index)
+
+16/05/2025 - 18:23:55
+Observed data Id 'IV_99mg_Sub_D_Rowland' included 2 columns and 11 rows
+16/05/2025 - 18:23:58
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Rowland_99_IV
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 3 (json numbering starting at 0);  4 (actual plot index)
+
+16/05/2025 - 18:23:59
+Observed data Id 'PO_500mg_Sub_D_Rowland' included 2 columns and 12 rows
+16/05/2025 - 18:23:59
+Observed data Id 'PO_500mg__Sub_C_Rowland' included 2 columns and 15 rows
+16/05/2025 - 18:24:01
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Rowland_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 4 (json numbering starting at 0);  5 (actual plot index)
+
+16/05/2025 - 18:24:02
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:24:02
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:24:02
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:24:02
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:24:03
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:24:03
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:24:03
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:24:03
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:24:04
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/1_time_profile_plot_Griseofulvin_Malm_500_PO.png' was successfully saved.
+16/05/2025 - 18:24:05
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:24:06
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:24:07
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/2_time_profile_plot_Griseofulvin_Rowland_122_IV.png' was successfully saved.
+16/05/2025 - 18:24:08
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:24:09
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:24:10
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/3_time_profile_plot_Griseofulvin_Rowland_142_IV.png' was successfully saved.
+16/05/2025 - 18:24:11
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:24:11
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:24:12
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/4_time_profile_plot_Griseofulvin_Rowland_99_IV.png' was successfully saved.
+16/05/2025 - 18:24:14
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:24:15
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:24:15
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/5_time_profile_plot_Griseofulvin_Rowland_500_PO.png' was successfully saved.
+16/05/2025 - 18:24:15
+'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md' already exists. Overwriting 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md'.
+16/05/2025 - 18:24:15
+Reports 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/001_Introduction.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/002_Methods.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/003_Modeling_Strategy.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/004_Data.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/005_Model_Parameters_and_Assumptions.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/006_Results_and_Discussion.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/007_Final_input_parameters.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/008_Diagnostics_Plots.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/009_Concentration_Time_Profiles.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/010_Conclusion.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/011_References.md' were successfully merged into 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md'
+16/05/2025 - 18:24:16
+In 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md', 0.666666666666667 tables and 7 figures were referenced.
+16/05/2025 - 18:24:17
+Word version of report 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md' created.
+16/05/2025 - 18:24:18
+In 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md', 5 sections were numbered
+16/05/2025 - 18:24:18
+In 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md', table of content of 19 lines was included.
+16/05/2025 - 18:24:18
+'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md' already exists. Overwriting 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md'.
+16/05/2025 - 18:24:18
+Reports 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/000_Intro.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md' were successfully merged into 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md'
+16/05/2025 - 18:26:24
+In createQualificationReport:
+Path: 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output' already exists.
+16/05/2025 - 18:26:26
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Malm_500_PO//Malm_500_PO.pkml' successfully loaded' successfully loaded
+16/05/2025 - 18:26:26
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_122_IV//Rowland_122_IV.pkml' successfully loaded' successfully loaded
+16/05/2025 - 18:26:26
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_142_IV//Rowland_142_IV.pkml' successfully loaded' successfully loaded
+16/05/2025 - 18:26:26
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_99_IV//Rowland_99_IV.pkml' successfully loaded' successfully loaded
+16/05/2025 - 18:26:27
+Simulation file 'Simulation file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input/Griseofulvin/Rowland_500_PO//Rowland_500_PO.pkml' successfully loaded' successfully loaded
+16/05/2025 - 18:26:33
+Observed data Id 'IV_99mg_Sub_D_Rowland' included 2 columns and 11 rows
+16/05/2025 - 18:26:34
+Observed data Id 'IV_122mg_Sub_A_Rowland' included 2 columns and 11 rows
+16/05/2025 - 18:26:35
+Observed data Id 'IV_142mg_Sub_C_Rowland' included 2 columns and 10 rows
+16/05/2025 - 18:26:36
+Observed data Id 'PO_500mg__Sub_C_Rowland' included 2 columns and 15 rows
+16/05/2025 - 18:26:36
+Observed data Id 'PO_500mg_Sub_D_Rowland' included 2 columns and 12 rows
+16/05/2025 - 18:26:38
+Observed data Id 'PO_500mg_Malm' included 3 columns and 13 rows
+16/05/2025 - 18:26:39
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:26:40
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:26:40
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:26:40
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:26:40
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:26:40
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:26:40
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Title: Goodness of fit plot for concentration in plasma
+SectionReference: diagnostics-plots
+Artifacts: Plot, GMFE, Measure
+PlotTypes: predictedVsObserved, residualsOverTime
+Groups: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:26:42
+Table 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/008_section_diagnostics-plots/1_gof_gmfe.csv' was successfully saved.
+16/05/2025 - 18:26:43
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:26:43
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:26:43
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:26:43
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:26:44
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:26:44
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:26:45
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:26:45
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:26:45
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:26:45
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:26:45
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:26:46
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:26:47
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/008_section_diagnostics-plots/2_gof_plot_predictedVsObserved.png' was successfully saved.
+16/05/2025 - 18:26:49
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/008_section_diagnostics-plots/3_gof_plot_residualsOverTime.png' was successfully saved.
+16/05/2025 - 18:26:51
+Observed data Id 'PO_500mg_Malm' included 3 columns and 13 rows
+16/05/2025 - 18:26:54
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:26:54
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:26:54
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:26:54
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Malm_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 0 (json numbering starting at 0);  1 (actual plot index)
+
+16/05/2025 - 18:26:55
+Observed data Id 'IV_122mg_Sub_A_Rowland' included 2 columns and 11 rows
+16/05/2025 - 18:26:58
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Rowland_122_IV
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 1 (json numbering starting at 0);  2 (actual plot index)
+
+16/05/2025 - 18:26:59
+Observed data Id 'IV_142mg_Sub_C_Rowland' included 2 columns and 10 rows
+16/05/2025 - 18:27:02
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Rowland_142_IV
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 2 (json numbering starting at 0);  3 (actual plot index)
+
+16/05/2025 - 18:27:03
+Observed data Id 'IV_99mg_Sub_D_Rowland' included 2 columns and 11 rows
+16/05/2025 - 18:27:06
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Rowland_99_IV
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 3 (json numbering starting at 0);  4 (actual plot index)
+
+16/05/2025 - 18:27:07
+Observed data Id 'PO_500mg_Sub_D_Rowland' included 2 columns and 12 rows
+16/05/2025 - 18:27:07
+Observed data Id 'PO_500mg__Sub_C_Rowland' included 2 columns and 15 rows
+16/05/2025 - 18:27:11
+log-10 transformation introduced infinite values.
+Configuration Plan Information:
+Project: Griseofulvin
+Simulation: Rowland_500_PO
+SectionReference: ct-profiles
+Plot: list(...)
+PlotNumber: 4 (json numbering starting at 0);  5 (actual plot index)
+
+16/05/2025 - 18:27:12
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:27:12
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:27:13
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:27:13
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:27:14
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:27:14
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:27:14
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:27:15
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:27:16
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/1_time_profile_plot_Griseofulvin_Malm_500_PO.png' was successfully saved.
+16/05/2025 - 18:27:17
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:27:18
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:27:19
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/2_time_profile_plot_Griseofulvin_Rowland_122_IV.png' was successfully saved.
+16/05/2025 - 18:27:22
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:27:23
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:27:24
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/3_time_profile_plot_Griseofulvin_Rowland_142_IV.png' was successfully saved.
+16/05/2025 - 18:27:25
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:27:26
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:27:27
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/4_time_profile_plot_Griseofulvin_Rowland_99_IV.png' was successfully saved.
+16/05/2025 - 18:27:30
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:27:31
+log-10 transformation introduced infinite values.
+16/05/2025 - 18:27:32
+Figure 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/images/006_section_results-and-discussion/009_section_ct-profiles/5_time_profile_plot_Griseofulvin_Rowland_500_PO.png' was successfully saved.
+16/05/2025 - 18:27:32
+'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md' already exists. Overwriting 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md'.
+16/05/2025 - 18:27:32
+Reports 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/001_Introduction.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/002_Methods.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/003_Modeling_Strategy.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/004_Data.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/005_Model_Parameters_and_Assumptions.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/006_Results_and_Discussion.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/007_Final_input_parameters.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/008_Diagnostics_Plots.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/009_Concentration_Time_Profiles.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/010_Conclusion.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/011_References.md' were successfully merged into 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md'
+16/05/2025 - 18:27:33
+In 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md', 0.666666666666667 tables and 7 figures were referenced.
+16/05/2025 - 18:27:35
+Word version of report 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md' created.
+16/05/2025 - 18:27:36
+In 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md', 5 sections were numbered
+16/05/2025 - 18:27:37
+In 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md', table of content of 19 lines was included.
+16/05/2025 - 18:27:37
+'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md' already exists. Overwriting 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md'.
+16/05/2025 - 18:27:37
+Reports 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/000_Intro.md', 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md' were successfully merged into 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_output/report.md'

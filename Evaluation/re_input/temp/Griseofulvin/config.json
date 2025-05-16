@@ -1,0 +1,55 @@
+{
+  "Project": "Griseofulvin",
+  "SnapshotFile": "C:\\Users\\LauraVillain\\Documents\\git\\Griseofulvin-Model\\Evaluation\\input\\../../Griseofulvin-Model.json",
+  "OutputFolder": "C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input",
+  "ObservedDataFolder": "C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input\\ObservedData",
+  "InputsFolder": "C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input\\Inputs",
+  "MappingFile": "C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input\\temp\\Griseofulvin\\mapping.json",
+  "TempFolder": "C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input\\temp\\Griseofulvin",
+  "ReportConfigurationFile": "C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/re_input\\report-configuration-plan.json",
+  "SimulationPlots": [
+    {
+      "Simulation": "Malm_500_PO",
+      "Project": "Griseofulvin",
+      "SectionReference": "ct-profiles"
+    },
+    {
+      "Simulation": "Rowland_122_IV",
+      "Project": "Griseofulvin",
+      "SectionReference": "ct-profiles"
+    },
+    {
+      "Simulation": "Rowland_142_IV",
+      "Project": "Griseofulvin",
+      "SectionReference": "ct-profiles"
+    },
+    {
+      "Simulation": "Rowland_99_IV",
+      "Project": "Griseofulvin",
+      "SectionReference": "ct-profiles"
+    },
+    {
+      "Simulation": "Rowland_500_PO",
+      "Project": "Griseofulvin",
+      "SectionReference": "ct-profiles"
+    }
+  ],
+  "Inputs": [
+    {
+      "Type": "Compound",
+      "Name": "Griseofulvin",
+      "Project": "Griseofulvin",
+      "SectionReference": "final-input-parameters",
+      "SectionLevel": 3
+    }
+  ],
+  "BuildingBlocks": [],
+  "SimulationParameters": [],
+  "Simulations": [
+    "Malm_500_PO",
+    "Rowland_122_IV",
+    "Rowland_142_IV",
+    "Rowland_99_IV",
+    "Rowland_500_PO"
+  ]
+}

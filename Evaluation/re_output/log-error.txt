@@ -1,0 +1,85 @@
+16/05/2025 - 16:08:35
+Type:    System.ArgumentException
+Message: Requested value 'Property' was not found.
+Method:  Boolean TryParseByName[TStorage](System.RuntimeType, System.ReadOnlySpan`1[System.Char], Boolean, Boolean, TStorage ByRef)
+Stack trace:
+   at System.Enum.TryParseByName[TStorage](RuntimeType enumType, ReadOnlySpan`1 value, Boolean ignoreCase, Boolean throwOnFailure, TStorage& result)
+   at System.Enum.TryParseByValueOrName[TUnderlying,TStorage](RuntimeType enumType, ReadOnlySpan`1 value, Boolean ignoreCase, Boolean throwOnFailure, TUnderlying& result)
+   at System.Enum.TryParse(Type enumType, ReadOnlySpan`1 value, Boolean ignoreCase, Boolean throwOnFailure, Object& result)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at OSPSuite.Utility.EnumHelper.ParseValue[TEnum](String enumStringToParser)
+   at OSPSuite.Core.Serialization.Xml.ParameterBuildModeAttributeMapper.ConvertFrom(String attributeValue, SerializationContext context)
+   at OSPSuite.Serializer.Xml.XmlAtt
+
+> Error Trace
+ ↪ createQualificationReport("C:/Users/LauraVillain/Documents/QualificationRunner 12.0.1", 
+  ↪ loadQualificationWorkflow(workflowFolder = reOutputFolder, configurationPlanFile = configurationPlanFile)
+   ↪ SimulationSet$new(simulationSetName = simulationSetName, simulationFile = simulationFile, 
+    ↪ initialize(...)
+     ↪ ospsuite::loadSimulation(simulationFile, addToCache = FALSE)
+      ↪ simulationPersister$call("LoadSimulation", .expandPath(filePath), 
+       ↪ do.call(".External", c(list("r_call_method", self$pointer, methodName), 
+16/05/2025 - 16:31:20
+Type:    System.ArgumentException
+Message: Requested value 'Property' was not found.
+Method:  Boolean TryParseByName[TStorage](System.RuntimeType, System.ReadOnlySpan`1[System.Char], Boolean, Boolean, TStorage ByRef)
+Stack trace:
+   at System.Enum.TryParseByName[TStorage](RuntimeType enumType, ReadOnlySpan`1 value, Boolean ignoreCase, Boolean throwOnFailure, TStorage& result)
+   at System.Enum.TryParseByValueOrName[TUnderlying,TStorage](RuntimeType enumType, ReadOnlySpan`1 value, Boolean ignoreCase, Boolean throwOnFailure, TUnderlying& result)
+   at System.Enum.TryParse(Type enumType, ReadOnlySpan`1 value, Boolean ignoreCase, Boolean throwOnFailure, Object& result)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at OSPSuite.Utility.EnumHelper.ParseValue[TEnum](String enumStringToParser)
+   at OSPSuite.Core.Serialization.Xml.ParameterBuildModeAttributeMapper.ConvertFrom(String attributeValue, SerializationContext context)
+   at OSPSuite.Serializer.Xml.XmlAtt
+
+> Error Trace
+ ↪ createQualificationReport("C:/Users/LauraVillain/Documents/QualificationRunner 12.0.1", 
+  ↪ loadQualificationWorkflow(workflowFolder = reOutputFolder, configurationPlanFile = configurationPlanFile)
+   ↪ SimulationSet$new(simulationSetName = simulationSetName, simulationFile = simulationFile, 
+    ↪ initialize(...)
+     ↪ ospsuite::loadSimulation(simulationFile, addToCache = FALSE)
+      ↪ simulationPersister$call("LoadSimulation", .expandPath(filePath), 
+       ↪ do.call(".External", c(list("r_call_method", self$pointer, methodName), 
+16/05/2025 - 16:37:30
+Type:    System.ArgumentException
+Message: Requested value 'Property' was not found.
+Method:  Boolean TryParseByName[TStorage](System.RuntimeType, System.ReadOnlySpan`1[System.Char], Boolean, Boolean, TStorage ByRef)
+Stack trace:
+   at System.Enum.TryParseByName[TStorage](RuntimeType enumType, ReadOnlySpan`1 value, Boolean ignoreCase, Boolean throwOnFailure, TStorage& result)
+   at System.Enum.TryParseByValueOrName[TUnderlying,TStorage](RuntimeType enumType, ReadOnlySpan`1 value, Boolean ignoreCase, Boolean throwOnFailure, TUnderlying& result)
+   at System.Enum.TryParse(Type enumType, ReadOnlySpan`1 value, Boolean ignoreCase, Boolean throwOnFailure, Object& result)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at OSPSuite.Utility.EnumHelper.ParseValue[TEnum](String enumStringToParser)
+   at OSPSuite.Core.Serialization.Xml.ParameterBuildModeAttributeMapper.ConvertFrom(String attributeValue, SerializationContext context)
+   at OSPSuite.Serializer.Xml.XmlAtt
+
+> Error Trace
+ ↪ loadQualificationWorkflow(workflowFolder = reOutputFolder, configurationPlanFile = configurationPlanFile)
+  ↪ SimulationSet$new(simulationSetName = simulationSetName, simulationFile = simulationFile, 
+   ↪ initialize(...)
+    ↪ ospsuite::loadSimulation(simulationFile, addToCache = FALSE)
+     ↪ simulationPersister$call("LoadSimulation", .expandPath(filePath), 
+      ↪ do.call(".External", c(list("r_call_method", self$pointer, methodName), 
+16/05/2025 - 16:44:31
+Type:    System.ArgumentException
+Message: Requested value 'Property' was not found.
+Method:  Boolean TryParseByName[TStorage](System.RuntimeType, System.ReadOnlySpan`1[System.Char], Boolean, Boolean, TStorage ByRef)
+Stack trace:
+   at System.Enum.TryParseByName[TStorage](RuntimeType enumType, ReadOnlySpan`1 value, Boolean ignoreCase, Boolean throwOnFailure, TStorage& result)
+   at System.Enum.TryParseByValueOrName[TUnderlying,TStorage](RuntimeType enumType, ReadOnlySpan`1 value, Boolean ignoreCase, Boolean throwOnFailure, TUnderlying& result)
+   at System.Enum.TryParse(Type enumType, ReadOnlySpan`1 value, Boolean ignoreCase, Boolean throwOnFailure, Object& result)
+   at System.Enum.Parse(Type enumType, String value, Boolean ignoreCase)
+   at OSPSuite.Utility.EnumHelper.ParseValue[TEnum](String enumStringToParser)
+   at OSPSuite.Core.Serialization.Xml.ParameterBuildModeAttributeMapper.ConvertFrom(String attributeValue, SerializationContext context)
+   at OSPSuite.Serializer.Xml.XmlAtt
+
+> Error Trace
+ ↪ createQualificationReport("C:/Users/LauraVillain/Documents/QualificationRunner 11.1.130", 
+  ↪ loadQualificationWorkflow(workflowFolder = reOutputFolder, configurationPlanFile = configurationPlanFile)
+   ↪ SimulationSet$new(simulationSetName = simulationSetName, simulationFile = simulationFile, 
+    ↪ initialize(...)
+     ↪ ospsuite::loadSimulation(simulationFile, addToCache = FALSE)
+      ↪ simulationPersister$call("LoadSimulation", .expandPath(filePath), 
+       ↪ do.call(".External", c(list("r_call_method", self$pointer, methodName), 
+16/05/2025 - 18:15:17
+cannot create file 'C:/Users/LauraVillain/Documents/git/Griseofulvin-Model/Evaluation/report/report.docx', reason 'Permission denied'

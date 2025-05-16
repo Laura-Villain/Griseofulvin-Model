@@ -1,0 +1,1989 @@
+{
+  "Version": 79,
+  "Individuals": [
+    {
+      "Name": "Human",
+      "Seed": 31170906,
+      "OriginData": {
+        "CalculationMethods": [
+          "SurfaceAreaPlsInt_VAR1",
+          "Body surface area - Mosteller"
+        ],
+        "Species": "Human",
+        "Population": "European_ICRP_2002",
+        "Gender": "MALE",
+        "Age": {
+          "Value": 30.0,
+          "Unit": "year(s)"
+        }
+      },
+      "ExpressionProfiles": []
+    }
+  ],
+  "Compounds": [
+    {
+      "Name": "Griseofulvin",
+      "IsSmallMolecule": true,
+      "PlasmaProteinBindingPartner": "Albumin",
+      "Lipophilicity": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Lipophilicity",
+              "Value": 2.18,
+              "Unit": "Log Units"
+            }
+          ]
+        }
+      ],
+      "FractionUnbound": [
+        {
+          "Name": "Measurement",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (plasma, reference value)",
+              "Value": 0.2
+            }
+          ]
+        }
+      ],
+      "Solubility": [
+        {
+          "Name": "Measurement",
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 8.82,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 6.5
+            }
+          ]
+        },
+        {
+          "Name": "table",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Solubility at reference pH",
+              "Value": 14.0,
+              "Unit": "mg/l"
+            },
+            {
+              "Name": "Reference pH",
+              "Value": 7.4
+            }
+          ]
+        },
+        {
+          "Name": "table2",
+          "IsDefault": false,
+          "Parameters": [
+            {
+              "Name": "Solubility table",
+              "Value": 8.82,
+              "Unit": "mg/l",
+              "TableFormula": {
+                "Name": "Solubility",
+                "XName": "pH",
+                "XDimension": "Dimensionless",
+                "YName": "Solubility",
+                "YDimension": "Concentration (mass)",
+                "YUnit": "mg/l",
+                "UseDerivedValues": false,
+                "Points": [
+                  {
+                    "X": 6.5,
+                    "Y": 8.82,
+                    "RestartSolver": false
+                  },
+                  {
+                    "X": 7.4,
+                    "Y": 14.0,
+                    "RestartSolver": false
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ],
+      "Processes": [
+        {
+          "InternalName": "LiverClearance",
+          "DataSource": "Hepatic_Clearance",
+          "Species": "Human",
+          "Parameters": [
+            {
+              "Name": "Fraction unbound (experiment)",
+              "Value": 0.2,
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 2' on 2025-04-10 14:24"
+              }
+            },
+            {
+              "Name": "Lipophilicity (experiment)",
+              "Value": 2.18,
+              "Unit": "Log Units",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 2' on 2025-04-10 14:24"
+              }
+            },
+            {
+              "Name": "Plasma clearance",
+              "Value": 1.3,
+              "Unit": "ml/min/kg",
+              "ValueOrigin": {
+                "Source": "ParameterIdentification",
+                "Method": "ParameterIdentification",
+                "Description": "Value updated from 'Parameter Identification 1' on 2025-05-16 17:57"
+              }
+            }
+          ]
+        }
+      ],
+      "CalculationMethods": [
+        "Cellular partition coefficient method - Poulin and Thiel",
+        "Cellular permeability - Charge dependant Schmitt"
+      ],
+      "Parameters": [
+        {
+          "Name": "Molecular weight",
+          "Value": 352.767,
+          "Unit": "g/mol"
+        }
+      ]
+    }
+  ],
+  "Formulations": [
+    {
+      "Name": "oral_admin",
+      "FormulationType": "Formulation_Dissolved"
+    },
+    {
+      "Name": "weibul",
+      "FormulationType": "Formulation_Tablet_Weibull",
+      "Parameters": [
+        {
+          "Name": "Dissolution time (50% dissolved)",
+          "Value": 60.0,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3' on 2025-04-10 16:39"
+          }
+        },
+        {
+          "Name": "Lag time",
+          "Value": 0.0,
+          "Unit": "min"
+        },
+        {
+          "Name": "Dissolution shape",
+          "Value": 4.0,
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3' on 2025-04-10 16:39"
+          }
+        },
+        {
+          "Name": "Use as suspension",
+          "Value": 1.0
+        }
+      ]
+    }
+  ],
+  "Protocols": [
+    {
+      "Name": "Chiou",
+      "ApplicationType": "Intravenous",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 108.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Infusion time",
+          "Value": 3.5,
+          "Unit": "min"
+        }
+      ]
+    },
+    {
+      "Name": "rowland_iv_122",
+      "ApplicationType": "Intravenous",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 122.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Infusion time",
+          "Value": 4.5,
+          "Unit": "min"
+        }
+      ]
+    },
+    {
+      "Name": "rowland_iv_99",
+      "ApplicationType": "Intravenous",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 99.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Infusion time",
+          "Value": 4.5,
+          "Unit": "min"
+        }
+      ]
+    },
+    {
+      "Name": "rowland_iv_142",
+      "ApplicationType": "Intravenous",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 142.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Infusion time",
+          "Value": 4.5,
+          "Unit": "min"
+        }
+      ]
+    },
+    {
+      "Name": "Oral_500mg",
+      "ApplicationType": "Oral",
+      "DosingInterval": "Single",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h"
+        },
+        {
+          "Name": "InputDose",
+          "Value": 500.0,
+          "Unit": "mg"
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        }
+      ]
+    }
+  ],
+  "Events": [
+    {
+      "Name": "meal",
+      "Template": "Meal: Standard (Human)",
+      "Parameters": [
+        {
+          "Name": "Meal energy content",
+          "Value": 600.0,
+          "Unit": "kcal",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        }
+      ]
+    }
+  ],
+  "Simulations": [
+    {
+      "Name": "Rowland_99_IV",
+      "Model": "4Comp",
+      "ObservedData": [
+        "IV_99mg_Sub_D_Rowland"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 48.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|rowland_iv_99|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 4.5,
+          "Unit": "min"
+        },
+        {
+          "Path": "Griseofulvin|Intestinal permeability (transcellular)",
+          "Value": 0.003,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 1' on 2025-05-16 17:57"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.005,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Human",
+      "Compounds": [
+        {
+          "Name": "Griseofulvin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Poulin and Theil",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Measurement",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Total Hepatic Clearance-Hepatic_Clearance",
+              "SystemicProcessType": "Hepatic"
+            }
+          ],
+          "Protocol": {
+            "Name": "rowland_iv_99"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Griseofulvin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rowland_99_IV|Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "IV_99mg_Sub_D_Rowland-Griseofulvin-Measurement",
+              "X": "IV_99mg_Sub_D_Rowland|Time",
+              "Y": "IV_99mg_Sub_D_Rowland|ObservedData|||Griseofulvin|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Griseofulvin-Model\nRowland_99_IV\n2025-05-16 18:11"
+        }
+      ]
+    },
+    {
+      "Name": "Rowland_500_PO",
+      "Model": "4Comp",
+      "ObservedData": [
+        "PO_500mg_Sub_D_Rowland",
+        "PO_500mg__Sub_C_Rowland"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 48.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Oral_500mg|weibul|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Griseofulvin|Intestinal permeability (transcellular)",
+          "Value": 0.003,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 1' on 2025-05-16 17:57"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.0001,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.0001,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.0001,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.0001,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.0001,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.005,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3' on 2025-04-10 16:39"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.002,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.002,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.0001,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.002,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.002,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Human",
+      "Compounds": [
+        {
+          "Name": "Griseofulvin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Poulin and Theil",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Measurement",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Total Hepatic Clearance-Hepatic_Clearance",
+              "SystemicProcessType": "Hepatic"
+            }
+          ],
+          "Protocol": {
+            "Name": "Oral_500mg",
+            "Formulations": [
+              {
+                "Name": "weibul",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "meal",
+          "StartTime": {
+            "Value": 3.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -1.08907,
+              "Max": 50.90879,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1534115,
+              "Max": 6.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Griseofulvin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rowland_500_PO|Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "PO_500mg_Sub_D_Rowland-Griseofulvin-Measurement",
+              "X": "PO_500mg_Sub_D_Rowland|Time",
+              "Y": "PO_500mg_Sub_D_Rowland|ObservedData|||Griseofulvin|Measurement",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "PO_500mg__Sub_C_Rowland-Griseofulvin-Measurement",
+              "X": "PO_500mg__Sub_C_Rowland|Time",
+              "Y": "PO_500mg__Sub_C_Rowland|ObservedData|||Griseofulvin|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Griseofulvin-Model\nRowland_500_PO\n2025-05-16 18:11"
+        }
+      ]
+    },
+    {
+      "Name": "Rowland_142_IV",
+      "Model": "4Comp",
+      "ObservedData": [
+        "IV_142mg_Sub_C_Rowland"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 48.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|rowland_iv_142|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 4.5,
+          "Unit": "min"
+        },
+        {
+          "Path": "Griseofulvin|Intestinal permeability (transcellular)",
+          "Value": 0.003,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 1' on 2025-05-16 17:57"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.005,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Human",
+      "Compounds": [
+        {
+          "Name": "Griseofulvin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Poulin and Theil",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "table",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Total Hepatic Clearance-Hepatic_Clearance",
+              "SystemicProcessType": "Hepatic"
+            }
+          ],
+          "Protocol": {
+            "Name": "rowland_iv_142"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Griseofulvin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rowland_142_IV|Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "IV_142mg_Sub_C_Rowland-Griseofulvin-Measurement",
+              "X": "IV_142mg_Sub_C_Rowland|Time",
+              "Y": "IV_142mg_Sub_C_Rowland|ObservedData|||Griseofulvin|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Griseofulvin-Model\nRowland_142_IV\n2025-05-16 18:11"
+        }
+      ]
+    },
+    {
+      "Name": "Malm_500_PO",
+      "Model": "4Comp",
+      "ObservedData": [
+        "PO_500mg_Malm"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 48.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|Oral_500mg|weibul|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
+          "Path": "Griseofulvin|Intestinal permeability (transcellular)",
+          "Value": 0.003,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 1' on 2025-05-16 17:57"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Caecum_int_Caecum_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.0001,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonAscendens_int_ColonAscendens_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.0001,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonDescendens_int_ColonDescendens_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.0001,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonSigmoid_int_ColonSigmoid_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.0001,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|ColonTransversum_int_ColonTransversum_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.0001,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.005,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 3' on 2025-04-10 16:39"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerIleum_int_LowerIleum_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.002,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|LowerJejunum_int_LowerJejunum_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.002,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Rectum_int_Rectum_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.0001,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperIleum_int_UpperIleum_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.002,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Neighborhoods|UpperJejunum_int_UpperJejunum_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.002,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Human",
+      "Compounds": [
+        {
+          "Name": "Griseofulvin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Poulin and Theil",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Measurement",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Total Hepatic Clearance-Hepatic_Clearance",
+              "SystemicProcessType": "Hepatic"
+            }
+          ],
+          "Protocol": {
+            "Name": "Oral_500mg",
+            "Formulations": [
+              {
+                "Name": "weibul",
+                "Key": "Formulation"
+              }
+            ]
+          }
+        }
+      ],
+      "Events": [
+        {
+          "Name": "meal",
+          "StartTime": {
+            "Value": 4.0,
+            "Unit": "h",
+            "ValueOrigin": {
+              "Source": "Unknown"
+            }
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -1.08907,
+              "Max": 50.90879,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.1534115,
+              "Max": 6.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Griseofulvin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Malm_500_PO|Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "PO_500mg_Malm-Griseofulvin-Measurement",
+              "X": "PO_500mg_Malm|Time",
+              "Y": "PO_500mg_Malm|ObservedData|||Griseofulvin|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Griseofulvin-Model\nMalm_500_PO\n2025-05-16 18:11"
+        }
+      ]
+    },
+    {
+      "Name": "Rowland_122_IV",
+      "Model": "4Comp",
+      "ObservedData": [
+        "IV_122mg_Sub_A_Rowland"
+      ],
+      "Solver": {},
+      "OutputSchema": [
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 0.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
+              "Unit": "pts/h"
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 2.0,
+              "Unit": "h"
+            },
+            {
+              "Name": "End time",
+              "Value": 48.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h"
+            }
+          ]
+        }
+      ],
+      "Parameters": [
+        {
+          "Path": "Applications|rowland_iv_122|Application_1|ProtocolSchemaItem|Infusion time",
+          "Value": 4.5,
+          "Unit": "min"
+        },
+        {
+          "Path": "Griseofulvin|Intestinal permeability (transcellular)",
+          "Value": 0.0033,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "ParameterIdentification",
+            "Method": "ParameterIdentification",
+            "Description": "Value updated from 'Parameter Identification 1' on 2025-05-16 17:57"
+          }
+        },
+        {
+          "Path": "Neighborhoods|Duodenum_int_Duodenum_cell|Griseofulvin|P (intracellular->interstitial)",
+          "Value": 0.005,
+          "Unit": "cm/min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Path": "Undefined Liver|Reference concentration",
+          "Value": 1.0,
+          "Unit": "µmol/l"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (intestine)",
+          "Value": 1380.0,
+          "Unit": "min"
+        },
+        {
+          "Path": "Undefined Liver|t1/2 (liver)",
+          "Value": 2160.0,
+          "Unit": "min"
+        }
+      ],
+      "OutputSelections": [
+        "Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)"
+      ],
+      "Individual": "Human",
+      "Compounds": [
+        {
+          "Name": "Griseofulvin",
+          "CalculationMethods": [
+            "Cellular partition coefficient method - Poulin and Theil",
+            "Cellular permeability - Charge dependent Schmitt"
+          ],
+          "Alternatives": [
+            {
+              "AlternativeName": "Measurement",
+              "GroupName": "COMPOUND_SOLUBILITY"
+            }
+          ],
+          "Processes": [
+            {
+              "Name": "Total Hepatic Clearance-Hepatic_Clearance",
+              "SystemicProcessType": "Hepatic"
+            }
+          ],
+          "Protocol": {
+            "Name": "rowland_iv_122"
+          }
+        }
+      ],
+      "HasResults": true,
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Griseofulvin-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Rowland_122_IV|Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "IV_122mg_Sub_A_Rowland-Griseofulvin-Measurement",
+              "X": "IV_122mg_Sub_A_Rowland|Time",
+              "Y": "IV_122mg_Sub_A_Rowland|ObservedData|||Griseofulvin|Measurement",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "RightInside",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Griseofulvin-Model\nRowland_122_IV\n2025-05-16 18:11"
+        }
+      ]
+    }
+  ],
+  "ObservedData": [
+    {
+      "Name": "IV_122mg_Sub_A_Rowland",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "IV_122mg_Sub_A_Rowland et a",
+          "Type": "String"
+        },
+        {
+          "Name": "Dose",
+          "Value": "122",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Griseofulvin",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "IV_122mg_Sub_A_Rowland|ObservedData|||Griseofulvin|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 352.0
+          },
+          "Values": [
+            2.1483,
+            1.5898,
+            1.3019,
+            1.0555,
+            0.9374,
+            0.869,
+            0.8284,
+            0.7453,
+            0.4809,
+            0.3223,
+            0.21
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "IV_122mg_Sub_A_Rowland|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.6491,
+          1.1894,
+          2.1178,
+          3.2109,
+          5.077,
+          5.7894,
+          7.21779966,
+          10.6790991,
+          24.1388,
+          36.4998,
+          48.6399
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "IV_142mg_Sub_C_Rowland",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "IV_142mg_Sub_C_Rowland et a",
+          "Type": "String"
+        },
+        {
+          "Name": "Dose",
+          "Value": "142",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Griseofulvin",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "IV_142mg_Sub_C_Rowland|ObservedData|||Griseofulvin|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 352.0
+          },
+          "Values": [
+            2.063,
+            1.5460999,
+            1.20059991,
+            0.9442,
+            0.853400052,
+            0.7352,
+            0.57250005,
+            0.4908,
+            0.1704,
+            0.1265
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "IV_142mg_Sub_C_Rowland|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.4279,
+          0.858499944,
+          1.84020007,
+          2.8774,
+          3.69900012,
+          5.0141,
+          7.7008,
+          9.6756,
+          24.1052,
+          28.0553
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "IV_99mg_Sub_D_Rowland",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "IV_99mg_Sub_D_Rowland et al",
+          "Type": "String"
+        },
+        {
+          "Name": "Dose",
+          "Value": "99",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Griseofulvin",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "IV_99mg_Sub_D_Rowland|ObservedData|||Griseofulvin|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 352.0
+          },
+          "Values": [
+            1.55570006,
+            1.3721,
+            1.0297,
+            0.8454,
+            0.759200037,
+            0.6546,
+            0.5674,
+            0.325900018,
+            0.2339,
+            0.2106,
+            0.1327
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "IV_99mg_Sub_D_Rowland|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.628100038,
+          1.25620008,
+          2.5493,
+          3.9163,
+          5.1724,
+          7.7217,
+          11.601,
+          24.3842,
+          33.4729,
+          35.9483,
+          48.2143
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "PO_500mg__Sub_C_Rowland",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "PO_500mg__Sub_C_Rowland et _1",
+          "Type": "String"
+        },
+        {
+          "Name": "Dose",
+          "Value": "500",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Griseofulvin",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "PO_500mg__Sub_C_Rowland|ObservedData|||Griseofulvin|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 352.0
+          },
+          "Values": [
+            1.2811,
+            1.9681,
+            1.8648,
+            1.7354,
+            1.62319994,
+            1.5499,
+            1.5107,
+            1.2653,
+            1.1423,
+            1.0151,
+            0.98179996,
+            0.9328,
+            0.687299967,
+            0.4999,
+            0.243500009
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "PO_500mg__Sub_C_Rowland|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.8551,
+          2.1991,
+          3.3434,
+          4.4824,
+          5.2567,
+          6.5252,
+          7.9217,
+          11.7162,
+          23.9554,
+          28.4993,
+          31.1144,
+          35.4944,
+          48.3467,
+          56.1902,
+          70.7548
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "PO_500mg_Sub_D_Rowland",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "PO_500mg_Sub_D_Rowland et a",
+          "Type": "String"
+        },
+        {
+          "Name": "Dose",
+          "Value": "500",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Griseofulvin",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "QuantityInfo": {
+            "Path": "PO_500mg_Sub_D_Rowland|ObservedData|||Griseofulvin|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 352.0
+          },
+          "Values": [
+            0.4037,
+            0.955800056,
+            1.0039,
+            0.999,
+            1.08740008,
+            1.0906,
+            0.9331,
+            1.023,
+            0.935900033,
+            0.9174,
+            0.8012,
+            0.5048
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "PO_500mg_Sub_D_Rowland|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.9236,
+          2.1059,
+          4.0271,
+          5.2463,
+          6.3916,
+          8.3498,
+          11.4901,
+          24.4212,
+          28.9285984,
+          32.1429,
+          34.9138,
+          48.3621025
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "PO_500mg_Malm",
+      "ExtendedProperties": [
+        {
+          "Name": "Sheet",
+          "Value": "Griseofulvin 500mg + Placeb",
+          "Type": "String"
+        },
+        {
+          "Name": "Dose",
+          "Value": "500",
+          "Type": "String"
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Griseofulvin",
+          "Type": "String"
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Measurement",
+          "RelatedColumns": [
+            {
+              "Name": "Error",
+              "QuantityInfo": {
+                "Path": "PO_500mg_Malm|ObservedData|||Griseofulvin|Error"
+              },
+              "DataInfo": {
+                "Origin": "ObservationAuxiliary",
+                "AuxiliaryType": "ArithmeticStdDev",
+                "MolWeight": 352.767
+              },
+              "Values": [
+                0.0,
+                0.159004,
+                0.2329831,
+                0.235993,
+                0.1870128,
+                0.1910007,
+                0.1770212,
+                0.1850259,
+                0.1969858,
+                0.187008,
+                0.1379908,
+                0.095996,
+                0.0580020025
+              ],
+              "Dimension": "Concentration (mass)",
+              "Unit": "mg/l"
+            }
+          ],
+          "QuantityInfo": {
+            "Path": "PO_500mg_Malm|ObservedData|||Griseofulvin|Measurement"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "MolWeight": 352.767
+          },
+          "Values": [
+            0.0,
+            0.313,
+            0.499,
+            0.576999962,
+            0.648,
+            0.649,
+            0.622000039,
+            0.633,
+            0.506,
+            0.384,
+            0.212,
+            0.103,
+            0.042
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "mg/l"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Path": "PO_500mg_Malm|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined"
+        },
+        "Values": [
+          0.0,
+          1.0,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          10.0,
+          24.0,
+          36.0,
+          48.0,
+          60.0,
+          72.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    }
+  ]
+}

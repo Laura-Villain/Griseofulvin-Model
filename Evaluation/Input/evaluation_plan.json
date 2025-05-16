@@ -2,8 +2,8 @@
     "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.1/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
-            "Id": "Compound",
-            "Path": "../../Compound.json",
+            "Id": "Griseofulvin",
+            "Path": "../../Griseofulvin-Model.json",
             "BuildingBlocks": [],
             "SimulationParameters": []
         }
@@ -121,13 +121,28 @@
         },
         "AllPlots": [
             {
-                "Project": "Compound",
-                "Simulation": "Sim 1 - intravenous",
+                "Project": "Griseofulvin",
+                "Simulation": "Malm_500_PO",
                 "SectionReference": "ct-profiles"
             },
             {
-                "Project": "Compound",
-                "Simulation": "Sim 2 - peroral",
+                "Project": "Griseofulvin",
+                "Simulation": "Rowland_122_IV",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Griseofulvin",
+                "Simulation": "Rowland_142_IV",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Griseofulvin",
+                "Simulation": "Rowland_99_IV",
+                "SectionReference": "ct-profiles"
+            },
+            {
+                "Project": "Griseofulvin",
+                "Simulation": "Rowland_500_PO",
                 "SectionReference": "ct-profiles"
             }
         ],
@@ -146,28 +161,63 @@
                 ],
                 "Groups": [
                     {
-                        "Caption": "Intravenous administration",
+                        "Caption": "Griseofulvin Intravenous Administration (model building)",
                         "Symbol": "Circle",
                         "OutputMappings": [
                             {
-                                "Project": "Compound",
-                                "Simulation": "Sim 1 - intravenous",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data iv",
-                                "Color": "#FF0000"
+                                "Project": "Griseofulvin",
+                                "Simulation": "Rowland_99_IV",
+                                "Output": "Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "IV_99mg_Sub_D_Rowland",
+                                "Color": "#816B5E"
+                            },
+                            {
+                                "Project": "Griseofulvin",
+                                "Simulation": "Rowland_122_IV",
+                                "Output": "Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "IV_122mg_Sub_A_Rowland",
+                                "Color": "#816B5E"
+                            },
+                            {
+                                "Project": "Griseofulvin",
+                                "Simulation": "Rowland_142_IV",
+                                "Output": "Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "IV_142mg_Sub_C_Rowland",
+                                "Color": "#816B5E"
+                            }
+                            
+                        ]
+                    },
+                    {
+                        "Caption": "Griseofulvin Oral Administration (model building)",
+                        "Symbol": "Square",
+                        "OutputMappings": [
+                            {
+                                "Project": "Griseofulvin",
+                                "Simulation": "Rowland_500_PO",
+                                "Output": "Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "PO_500mg__Sub_C_Rowland",
+                                "Color": "#816B5E"
+                            },
+                            {
+                                "Project": "Griseofulvin",
+                                "Simulation": "Rowland_500_PO",
+                                "Output": "Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "PO_500mg_Sub_D_Rowland",
+                                "Color": "#E3DD8A"
                             }
                         ]
                     },
                     {
-                        "Caption": "Oral administration",
+                        "Caption": "Griseofulvin Oral Administration (model verification)",
                         "Symbol": "Square",
                         "OutputMappings": [
                             {
-                                "Project": "Compound",
-                                "Simulation": "Sim 2 - peroral",
-                                "Output": "Organism|PeripheralVenousBlood|COMPOUND|Plasma (Peripheral Venous Blood)",
-                                "ObservedData": "Observed data po",
-                                "Color": "#FF0000"
+                                "Project": "Griseofulvin",
+                                "Simulation": "Malm_500_PO",
+                                "Output": "Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)",
+                                "ObservedData": "PO_500mg_Malm",
+                                "Color": "#816B5E"
                             }
                         ]
                     }
@@ -180,15 +230,9 @@
     },
     "Inputs": [
         {
-            "Project": "Compound",
-            "Name": "COMPOUND",
+            "Project": "Griseofulvin",
+            "Name": "Griseofulvin",
             "Type": "Compound",
-            "SectionReference": "final-input-parameters"
-        },
-        {
-            "Project": "Compound",
-            "Name": "Tablet",
-            "Type": "Formulation",
             "SectionReference": "final-input-parameters"
         }
     ],
