@@ -21,8 +21,8 @@ This is the result of the final parameter identification.
 | -------------------- | --------------- | ---- |
 | `Plasma clearance` |        1.20         |      |ml/min/kg
 | `Intestinal permeability` |     2.80E-3            | cm/min     |
-| `Weibul Dissolution time` |        60         |  min    |
-| `Weibul Dissolution shape` |        4.00         |   -   |
+| `Weibull Dissolution time` |        60         |  min    |
+| `Weibull Dissolution shape` |        4.00         |   -   |
 | `Permeability P(intracellular->interstitial) Mucosa (Duodenum)` |        6.0E-3         |   cm/min   |
 | `Permeability P(intracellular->interstitial) Mucosa (small intestine)`  |        1E-04         |   cm/min   |
 | `Permeability P(intracellular->interstitial) Mucosa (large intestine)`  |        2E-03         |   cm/min   |
