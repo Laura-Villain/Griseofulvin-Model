@@ -1,5 +1,5 @@
 {
-    "$schema": "https://github.com/Open-Systems-Pharmacology/QualificationPlan/releases/download/v3.4/OSP_Qualification_Plan_Schema.json",
+    "$schema": "https://raw.githubusercontent.com/Open-Systems-Pharmacology/QualificationPlan/refs/tags/v3.4/schemas/OSP_Qualification_Plan_Schema.json",
     "Projects": [
         {
             "Id": "Griseofulvin",
@@ -185,7 +185,7 @@
                                 "ObservedData": "IV_142mg_Sub_C_Rowland",
                                 "Color": "#816B5E"
                             }
-                            
+
                         ]
                     },
                     {
