@@ -1,4 +1,4 @@
-# COMPOUND-Model
+# Griseofulvin-Model
 Whole-body PBPK model of Griseofulvin.
 
 ## Repository files
@@ -18,4 +18,5 @@ We encourage contribution to the Open Systems Pharmacology community. Before get
 
 ## License
 The model code is distributed under the [GPLv2 License](https://github.com/Open-Systems-Pharmacology/Suite/blob/develop/LICENSE).
+
 
