@@ -666,7 +666,7 @@
               }
             },
             {
-              "Name": "IV_122mg_Sub_A_Rowland et a-Griseofulvin-Measurement",
+              "Name": "IV_122mg_Sub_A_Rowland et al-Griseofulvin-Measurement",
               "X": "IV_122mg_Sub_A_Rowland|Time",
               "Y": "IV_122mg_Sub_A_Rowland|ObservedData|||Griseofulvin|Measurement",
               "CurveOptions": {
