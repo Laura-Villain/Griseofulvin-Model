@@ -151,8 +151,8 @@
         }
       ],
       "CalculationMethods": [
-        "Cellular partition coefficient method - PK-Sim Standard",
-        "Cellular permeability - PK-Sim Standard"
+        "Cellular partition coefficient method - Poulin and Theil",
+        "Cellular permeability - Charge dependent Schmitt normalized to PK-Sim"
       ],
       "Parameters": [
         {
@@ -384,7 +384,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|rowland_iv_99|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|rowland_iv_99|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 4.5,
           "Unit": "min"
         },
@@ -523,7 +523,7 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "Rowland et al 1968, 122 mg IV Griseofulvin - Subject D",
-          "OriginText": "griseofulvin_clean_MG\nRowland_99_IV\n2025-10-03 13:48"
+          "OriginText": "Griseofulvin-Model\nRowland_99_IV\n2025-10-07 17:33"
         }
       ]
     },
@@ -579,7 +579,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|rowland_iv_122|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|rowland_iv_122|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 4.5,
           "Unit": "min"
         },
@@ -718,7 +718,7 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "Rowland et al 1968, 122 mg IV Griseofulvin - Subject A",
-          "OriginText": "griseofulvin_clean\nRowland_122_IV\n2025-10-03 12:12"
+          "OriginText": "Griseofulvin-Model\nRowland_122_IV\n2025-10-07 17:33"
         }
       ]
     },
@@ -774,7 +774,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|rowland_iv_142|Application_1|ProtocolSchemaItem|Infusion time",
+          "Path": "Events|rowland_iv_142|Application_1|ProtocolSchemaItem|Infusion time",
           "Value": 4.5,
           "Unit": "min"
         },
@@ -913,7 +913,7 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "Rowland et al 1968, 142mg PO Griseofulvin - Subject C",
-          "OriginText": "griseofulvin_clean_MG\nrowland_iv_142\n2025-10-03 13:30"
+          "OriginText": "Griseofulvin-Model\nRowland_142_IV\n2025-10-07 17:33"
         }
       ]
     },
@@ -970,7 +970,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_500mg|weibul|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg|weibul|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -1231,7 +1231,7 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "Rowland et al 1968, 500 mg PO Griseofulvin - Subject C and D",
-          "OriginText": "griseofulvin_clean_MG\nRowland_500_PO\n2025-10-03 13:30"
+          "OriginText": "Griseofulvin-Model\nRowland_500_PO\n2025-10-07 17:33"
         }
       ]
     },
@@ -1287,7 +1287,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Applications|Oral_500mg|weibul|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg|weibul|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -1532,7 +1532,7 @@
             "DiagramBackColor": "#FFFFFF"
           },
           "Title": "Malm et al 2015, 500 mg PO Griseofulvin + Placebo SC",
-          "OriginText": "griseofulvin_clean_MG\nMalm_500_PO\n2025-10-03 13:28"
+          "OriginText": "Griseofulvin-Model\nMalm_500_PO\n2025-10-07 17:33"
         }
       ]
     }
