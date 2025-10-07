@@ -1480,7 +1480,7 @@
               }
             },
             {
-              "Name": "Griseofulvin 500mg + Placeb 1-Griseofulvin-Measurement",
+              "Name": "Griseofulvin 500mg + Placebo SC-Griseofulvin-Measurement",
               "X": "PO_500mg_Malm|Time",
               "Y": "PO_500mg_Malm|ObservedData|||Griseofulvin|Measurement",
               "CurveOptions": {
