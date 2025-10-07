@@ -169,7 +169,7 @@
       "FormulationType": "Formulation_Dissolved"
     },
     {
-      "Name": "weibul",
+      "Name": "weibull",
       "FormulationType": "Formulation_Tablet_Weibull",
       "Parameters": [
         {
@@ -204,28 +204,6 @@
     }
   ],
   "Protocols": [
-    {
-      "Name": "Chiou",
-      "ApplicationType": "Intravenous",
-      "DosingInterval": "Single",
-      "Parameters": [
-        {
-          "Name": "Start time",
-          "Value": 0.0,
-          "Unit": "h"
-        },
-        {
-          "Name": "InputDose",
-          "Value": 108.0,
-          "Unit": "mg"
-        },
-        {
-          "Name": "Infusion time",
-          "Value": 3.5,
-          "Unit": "min"
-        }
-      ]
-    },
     {
       "Name": "rowland_iv_122",
       "ApplicationType": "Intravenous",
@@ -970,7 +948,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|Oral_500mg|weibul|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg|weibull|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -1129,7 +1107,7 @@
             "Name": "Oral_500mg",
             "Formulations": [
               {
-                "Name": "weibul",
+                "Name": "weibull",
                 "Key": "Formulation"
               }
             ]
@@ -1287,7 +1265,7 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|Oral_500mg|weibul|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|Oral_500mg|weibull|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg"
         },
@@ -1441,7 +1419,7 @@
             "Name": "Oral_500mg",
             "Formulations": [
               {
-                "Name": "weibul",
+                "Name": "weibull",
                 "Key": "Formulation"
               }
             ]
