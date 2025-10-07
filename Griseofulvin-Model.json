@@ -1480,7 +1480,7 @@
               }
             },
             {
-              "Name": "Griseofulvin 500mg + Placebo SC-Griseofulvin-Measurement",
+              "Name": "Griseofulvin 500mg + Placebo-Griseofulvin-Measurement",
               "X": "PO_500mg_Malm|Time",
               "Y": "PO_500mg_Malm|ObservedData|||Griseofulvin|Measurement",
               "CurveOptions": {
@@ -1509,7 +1509,7 @@
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "Title": "Malm et al 2015, 500 mg PO Griseofulvin + Placebo SC",
+          "Title": "Malm et al 2015, 500 mg PO Griseofulvin + Placebo",
           "OriginText": "Griseofulvin-Model\nMalm_500_PO\n2025-10-07 17:33"
         }
       ]
@@ -1899,7 +1899,7 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "Griseofulvin 500mg + Placeb",
+          "Value": "Griseofulvin 500mg + Placebo",
           "Type": "String"
         },
         {
