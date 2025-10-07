@@ -2,7 +2,7 @@ The PBPK model for Griseofulvin was developed and verified with clinical pharmac
 
 The model was evaluated covering data from studies including in particular
 
-* Intravenous Bolus
+* Intravenous Infusion
 * Oral administration over fasted state with post-meal administration.
 
 The next sections show:
