@@ -1168,7 +1168,7 @@
               }
             },
             {
-              "Name": "PO_500mg_Sub_D_Rowland et a-Griseofulvin-Measurement",
+              "Name": "PO_500mg_Sub_D_Rowland et al-Griseofulvin-Measurement",
               "X": "PO_500mg_Sub_D_Rowland|Time",
               "Y": "PO_500mg_Sub_D_Rowland|ObservedData|||Griseofulvin|Measurement",
               "CurveOptions": {
@@ -1179,7 +1179,7 @@
               }
             },
             {
-              "Name": "PO_500mg__Sub_C_Rowland et _1-Griseofulvin-Measurement",
+              "Name": "PO_500mg__Sub_C_Rowland et als_-Griseofulvin-Measurement",
               "X": "PO_500mg__Sub_C_Rowland|Time",
               "Y": "PO_500mg__Sub_C_Rowland|ObservedData|||Griseofulvin|Measurement",
               "CurveOptions": {
@@ -1521,7 +1521,7 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "IV_122mg_Sub_A_Rowland et a",
+          "Value": "IV_122mg_Sub_A_Rowland et al",
           "Type": "String"
         },
         {
@@ -1595,7 +1595,7 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "IV_142mg_Sub_C_Rowland et a",
+          "Value": "IV_142mg_Sub_C_Rowland et al",
           "Type": "String"
         },
         {
@@ -1741,7 +1741,7 @@
       "ExtendedProperties": [
         {
           "Name": "Sheet",
-          "Value": "PO_500mg__Sub_C_Rowland et _1",
+          "Value": "PO_500mg__Sub_C_Rowland et al",
           "Type": "String"
         },
         {
