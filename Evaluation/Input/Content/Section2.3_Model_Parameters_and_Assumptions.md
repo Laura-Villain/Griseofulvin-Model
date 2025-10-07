@@ -24,6 +24,6 @@ This is the result of the final parameter identification.
 | `Weibull Dissolution time` |        60         |  min    |
 | `Weibull Dissolution shape` |        4.00         |   -   |
 | `Permeability P(intracellular->interstitial) Mucosa (Duodenum)` |        6.0E-3         |   cm/min   |
-| `Permeability P(intracellular->interstitial) Mucosa (small intestine)`  |        1E-04         |   cm/min   |
-| `Permeability P(intracellular->interstitial) Mucosa (large intestine)`  |        2E-03         |   cm/min   |
+| `Permeability P(intracellular->interstitial) Mucosa (small intestine)`  |        2E-03         |   cm/min   |
+| `Permeability P(intracellular->interstitial) Mucosa (large intestine)`  |        1E-04         |   cm/min   |
 
