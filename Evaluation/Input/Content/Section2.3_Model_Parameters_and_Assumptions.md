@@ -7,7 +7,7 @@ Tablet dissolution was modeled using an empirical Weibull dissolution approach, 
 
 ### Distribution <a id="model-parameters-and-assumptions-distribution"></a>
 
-After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim, observed clinical data was best described by choosing the partition coefficient calculation by `Poulin and Theil` and cellular permeability calculation by `Charge dependant Schmitt`. 
+After testing the available organ-plasma partition coefficient and cell permeability calculation methods built in PK-Sim, observed clinical data was best described by choosing the partition coefficient calculation by `Poulin and Theil` and cellular permeability calculation by `Charge dependant Schmitt normalized to PK-Sim`. 
 
 ### Metabolism and Elimination <a id="model-parameters-and-assumptions-metabolism-and-elimination"></a>
 
