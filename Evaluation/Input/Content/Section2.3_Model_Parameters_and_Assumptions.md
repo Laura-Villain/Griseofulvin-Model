@@ -1,7 +1,7 @@
 ### Absorption <a id="model-parameters-and-assumptions-absorption"></a>
 
 The parameters values for `Intestinal permeability` and `Permeability P(intracellular->interstitial) Mucosa` were optimized based on clinical oral data, see [Section 2.3.4](#automated-parameter-identification), taking into account the fact that most of the absorption occurs in the duodenum. 
-The measured solubility of Griseofulvin was taken from Product information from [Brinkmann-Trettenes 2014](#main-references) (see [Section 2.2.1](#invitro-and-physico-chemical-data)).
+The measured solubility of griseofulvin was taken from Product information from [Brinkmann-Trettenes 2014](#main-references) (see [Section 2.2.1](#invitro-and-physico-chemical-data)).
 
 Tablet dissolution was modeled using an empirical Weibull dissolution approach, with the corresponding parameters estimated accordingly.
 

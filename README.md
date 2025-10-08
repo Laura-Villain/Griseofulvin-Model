@@ -1,5 +1,5 @@
 # Griseofulvin-Model
-Whole-body PBPK model of Griseofulvin.
+Whole-body PBPK model of griseofulvin.
 
 ## Repository files
 This repository contains:

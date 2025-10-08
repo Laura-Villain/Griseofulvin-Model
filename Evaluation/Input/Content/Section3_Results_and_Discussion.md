@@ -1,4 +1,4 @@
-The PBPK model for Griseofulvin was developed and verified with clinical pharmacokinetic data.
+The PBPK model for griseofulvin was developed and verified with clinical pharmacokinetic data.
 
 The model was evaluated covering data from studies including in particular
 
