@@ -1,6 +1,6 @@
 **Brinkmann-Trettenes 2014** Brinkmann-Trettenes U, Bauer-Brandl A. Solid phospholipid nano-particles: investigations into formulation and dissolution properties of griseofulvin. Int J Pharm. 2014 Jun 5;467(1-2):42-7. doi: 10.1016/j.ijpharm.2014.03.023. Epub 2014 Mar 11. PMID: 24614583.
 
-**Milan 2023** Milan Laboratories (India). Griseofulvin 500mg Tablets SmPC. Ethiopian Food and Drug Administration. https://www.efda.gov.et/wp-content/uploads/2023/08/Griseofulvin-500mg-Tablets_Milan-Laboratories-India-Pvt.-Ltd..pdf. Acessed October 2025.
+**Milan 2023** Milan Laboratories (India). Griseofulvin 500mg Tablets SmPC. Ethiopian Food and Drug Administration. https://www.efda.gov.et/wp-content/uploads/2023/08/Griseofulvin-500mg-Tablets_Milan-Laboratories-India-Pvt.-Ltd..pdf. Accessed October 2025.
 
 **Hansch 1995** Hansch C, Hoekman D, Leo A, Zhang L, Li P. The expanding role of quantitative structure-activity relationships (QSAR) in toxicology. Toxicol Lett. 1995 Sep;79(1-3):45-53. doi: 10.1016/0378-4274(95)03356-p. PMID: 7570673.
 
