@@ -210,14 +210,14 @@
                     },
                     {
                         "Caption": "Griseofulvin Oral Administration (model verification)",
-                        "Symbol": "Square",
+                        "Symbol": "Triangle",
                         "OutputMappings": [
                             {
                                 "Project": "Griseofulvin",
                                 "Simulation": "Malm_500_PO",
                                 "Output": "Organism|PeripheralVenousBlood|Griseofulvin|Plasma (Peripheral Venous Blood)",
                                 "ObservedData": "PO_500mg_Malm",
-                                "Color": "#816B5E"
+                                "Color": "#B7E644"
                             }
                         ]
                     }

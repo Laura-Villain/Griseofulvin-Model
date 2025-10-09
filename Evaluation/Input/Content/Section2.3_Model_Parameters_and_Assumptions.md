@@ -19,8 +19,8 @@ This is the result of the final parameter identification.
 
 | Model Parameter      | Optimized Value | Unit |
 | -------------------- | --------------- | ---- |
-| `Plasma clearance` |        1.20         |      |ml/min/kg
-| `Intestinal permeability` |     2.80E-3            | cm/min     |
+| `Plasma clearance` |       1.20| ml/min/kg
+| `Intestinal permeability` |     2.80E-3            | cm/min  |
 | `Weibull Dissolution time` |        60         |  min    |
 | `Weibull Dissolution shape` |        4.00         |   -   |
 | `Permeability P(intracellular->interstitial) Mucosa (Duodenum)` |        6.0E-3         |   cm/min   |

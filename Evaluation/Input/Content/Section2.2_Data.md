@@ -5,7 +5,8 @@ A literature search was performed to collect available information on physicoche
 | **Parameter**   | **Unit** | **Value** | Source                                     | **Description**                                 |
 | :-------------- | -------- | --------- | ------------------------------------------ | ----------------------------------------------- |
 | MW              | g/mol    |    352.77       | [PubChem 2025](#main-references)               | Molecular weight                                |
-| pK<sub>a</sub>  |          |     2.18      | [Hansch 1995](#main-references)         | Acid dissociation constant                      |
+| logP  |          |     2.18      | [Hansch 1995](#main-references)         | Partition coefficient between octanol and water|
+| fu  |          |     0.20      | [Milan 2023](#main-references)         | Fraction unbound in plasma                     |
 | Solubility (pH) |      mg/l    |   8.82 (6.5)        | [Brinkmann-Trettenes 2014](#main-references)               | Aqueous Solubility   |
 
 ### Clinical Data  <a id="clinical-data"></a>

@@ -7,8 +7,8 @@
 | Version                                         | x.x-OSPy.y                                                   |
 | ----------------------------------------------- | ------------------------------------------------------------ |
 | based on *Model Snapshot* and *Evaluation Plan* | https://github.com/Open-Systems-Pharmacology/Griseofulvin-Model/releases/tag/vx.x |
-| OSP Version                                     | 11.3                                                          |
-| Qualification Framework Version                 | 11.3                                                          |
+| OSP Version                                     | y.y                                                          |
+| Qualification Framework Version                 | z.z                                                         |
 
 
 
